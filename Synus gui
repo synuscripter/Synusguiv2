@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Synus gui v2 ", "DarkTheme")
+
+local main = Window:NewTab("Synus gui v2")
+local MainSection = main:NewSection("main")
+
+
+MainSection:NewButton("invisible fling", "Makes you fling people invisible!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/synuscripter/invisiblefling/main/invisiblefling'))()
+end)
+
+
+MainSection:NewButton("Fly", "Makes you Fly Press E then space bar", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/synuscripter/synus-gui-free-/main/Synus%20fly%20(fling)'))()
+end)
+
+
+local main = Window:NewTab("Updates soon")
+local MainSection = main:NewSection("soon")
+
+
+MainSection:NewButton("Crashers", "still not available()", function()
+end)
+
+local main = Window:NewTab("Fps aimlock")
+local MainSection = main:NewSection("Fps aimlock")
+
+
+MainSection:NewButton("Fps aimlock", "Fps aimlock toggles esp", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/synuscripter/synustest/main/synus%20fps%20aimlock'))()
+end)
