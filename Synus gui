@@ -1,7 +1,13 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "Credits";
+Text = "developed rodizzy#0001";
+})
+
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Synus gui v2 ", "DarkTheme")
 
-local main = Window:NewTab("Synus gui v2")
+local main = Window:NewTab("Main")
 local MainSection = main:NewSection("main")
 
 
